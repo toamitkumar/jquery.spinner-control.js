@@ -1,0 +1,46 @@
+.spinnerControl
+{
+    overflow:auto;
+    float:left
+}
+.spinnerControl div
+{
+    height:31px;
+    line-height:31px;
+    float:left;
+}
+.spinnerControl .leftButton
+{
+    width:30px;
+    background: url("../images/spinnerbuttons.png") no-repeat left top transparent;
+    cursor:pointer;
+}
+.spinnerControl .leftButton:hover
+{
+    width:30px;
+    background: url("../images/spinnerbuttons.png") no-repeat left bottom transparent;
+    cursor:pointer;
+}
+.spinnerControl .valueDisplay
+{
+    min-width:30px;
+    border: 1px solid black;
+    height: 29px;
+    overflow:auto;
+    font-family:Verdana;
+    font-size:14px;
+    line-height:29px;
+    text-align:center;
+}
+.spinnerControl .rightButton
+{
+    width:30px;
+    background: url("../images/spinnerbuttons.png") no-repeat right top transparent;
+    cursor:pointer;
+}
+.spinnerControl .rightButton:hover
+{
+    width:30px;
+    background: url("../images/spinnerbuttons.png") no-repeat right bottom transparent;
+    cursor:pointer;
+}
